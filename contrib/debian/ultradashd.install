@@ -1,0 +1,3 @@
+usr/local/bin/ultradashd usr/bin
+usr/local/bin/ultradash-cli usr/bin
+debian/examples/ultradash.conf etc/ultradash

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Ultradash Coin
+Comment=Ultradash P2P Cryptocurrency
+Comment[fr]=Ultradash, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Ultradash, eşten eşe kriptografik sanal para birimi
+Exec=ultradash-qt %u
+Terminal=false
+Type=Application
+Icon=ultradash128
+MimeType=x-scheme-handler/ultradash;
+Categories=Office;Finance;
+StartupWMClass=Ultradash-qt

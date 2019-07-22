@@ -1,0 +1,8 @@
+/usr/bin/ultradash-cli		--	gen_context(system_u:object_r:ultradash_exec_t,s0)
+/usr/sbin/ultradashd		--	gen_context(system_u:object_r:ultradash_exec_t,s0)
+/usr/lib(64)?/ultradash/ultradashd		--	gen_context(system_u:object_r:ultradash_exec_t,s0)
+
+/etc/ultradash(/.*)?		gen_context(system_u:object_r:ultradash_conf_t,s0)
+/var/lib/ultradash(/.*)?		gen_context(system_u:object_r:ultradash_var_lib_t,s0)
+
+(/var)?/run/ultradashd(/.*)?   gen_context(system_u:object_r:ultradash_var_run_t,s0)

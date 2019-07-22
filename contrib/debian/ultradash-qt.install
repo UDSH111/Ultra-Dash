@@ -1,0 +1,6 @@
+usr/local/bin/ultradash-qt usr/bin
+share/pixmaps/ultradash32.xpm usr/share/pixmaps
+share/pixmaps/ultradash16.xpm usr/share/pixmaps
+share/pixmaps/ultradash128.png usr/share/pixmaps
+debian/ultradash-qt.desktop usr/share/applications
+debian/ultradash-qt.protocol usr/share/kde4/services/
